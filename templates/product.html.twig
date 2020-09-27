@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+
+ {% block stylesheets %}
+     <link rel="stylesheet" href="{{ asset('css/base.css')  }}">
+ {% endblock %}
+
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ parent() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="col-md-12" style="text-align: center">
+        {% for product in products %}
+            <div class="col-md-4 block_product">
+                {{ product }} <br />
+                <div style="height: 50%">
+                  
+                </div>
+                <button type="button" class="btn btn-success">Ajouter au panier</button>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

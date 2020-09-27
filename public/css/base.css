@@ -1,0 +1,23 @@
+.bandeau{
+    height: 130px;
+    width: 100%;
+    background: cadetblue;
+    text-align: right;
+}
+
+.menus{
+
+}
+
+.block_product{
+    display: inline-block;
+    margin: 15px;
+    width: 290px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.menu{
+    text-decoration: none;
+    margin: 3px;
+}

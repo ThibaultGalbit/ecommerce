@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+        <title>{% block title %}Home Page{% endblock %}</title>
+        {% block stylesheets %}
+                <link rel="stylesheet" href="{{ asset('css/base.css')  }}">
+        {% endblock %}
+</head>
+<body>
+<div id="header">
+        <!-- HEADER A METTRE SUR TOUTES LES PAGES-->
+        {% block header %}
+                <div class="col-md-12 bandeau">
+                        <div class="menus">
+                                <a class="menu" href="{{ path("home") }}">Accueil</a>
+                                <a class="menu" href="{{ path("product_list") }}">Produits</a>
+                                <a class="menu" href="#">Panier</a>
+                                <a class="menu" href="#">Nous contacter</a>
+                        </div>
+                </div>
+        {% endblock %}
+</div>
+<div id="content">{% block content %}{% endblock %}</div>
+<div id="footer">
+        <!-- FOOTER A METTRE SUR TOUTES LES PAGES-->
+</div>
+</body>
 </html>

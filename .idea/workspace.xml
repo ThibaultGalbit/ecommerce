@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="70c3a900-7be8-452c-a9fb-b9a9d731ac35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +44,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DEVBO-01" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -124,6 +159,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i5cr16dlUqCtB03beKbf9de6XW" />
@@ -137,6 +173,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/product" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -145,17 +187,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601201088249</updated>
-      <workItem from="1601201089574" duration="3332000" />
+      <workItem from="1601201089574" duration="27032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="258" width="672" height="678" key="search.everywhere.popup" timestamp="1601201170394">
-      <screen x="68" y="26" width="1852" height="1054" />
+    <state x="2088" y="308" width="1652" height="854" key="DiffContextDialog" timestamp="1601214902075">
+      <screen x="0" y="208" width="3840" height="1054" />
     </state>
+    <state x="2088" y="308" width="1652" height="854" key="DiffContextDialog/0.208.3840.1054@0.208.3840.1054" timestamp="1601214902075" />
+    <state x="2621" y="438" width="575" height="600" key="NewPhpClassDialog" timestamp="1601224214414">
+      <screen x="0" y="208" width="3840" height="1054" />
+    </state>
+    <state x="2621" y="438" width="575" height="600" key="NewPhpClassDialog/0.208.3840.1054@0.208.3840.1054" timestamp="1601224214414" />
+    <state x="2606" y="319" width="675" height="831" key="find.popup" timestamp="1601219859854">
+      <screen x="0" y="208" width="3840" height="1054" />
+    </state>
+    <state x="2606" y="319" width="675" height="831" key="find.popup/0.208.3840.1054@0.208.3840.1054" timestamp="1601219859854" />
+    <state x="2364" y="414" width="1394" height="678" key="search.everywhere.popup" timestamp="1601220705090">
+      <screen x="0" y="208" width="3840" height="1054" />
+    </state>
+    <state x="2364" y="414" width="1394" height="678" key="search.everywhere.popup/0.208.3840.1054@0.208.3840.1054" timestamp="1601220705090" />
     <state x="657" y="258" width="672" height="678" key="search.everywhere.popup/68.26.1852.1054@68.26.1852.1054" timestamp="1601201170394" />
   </component>
 </project>
