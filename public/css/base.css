@@ -17,6 +17,11 @@
     border: 1px solid black;
 }
 
+.base_middle{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .menu{
     text-decoration: none;
     margin: 3px;
