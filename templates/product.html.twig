@@ -15,11 +15,16 @@
     <div class="col-md-12" style="text-align: center">
         {% for product in products %}
             <div class="col-md-4 block_product">
-                {{ product }} <br />
+                {{ product.libelle }} <br />
                 <div style="height: 50%">
-                  
+                    {{ product.photo }}
                 </div>
-                <button type="button" class="btn btn-success">Ajouter au panier</button>
+                <div style="padding-left: 25px; text-align: left">
+                    {{ product.price }} €
+                </div>
+                <div style="margin-top: 40px">
+                    <a href="{{ path('product_show', {'entityId': product.id}) }}">Ajouter Produit</a>
+                </div>
             </div>
         {% endfor %}
     </div>

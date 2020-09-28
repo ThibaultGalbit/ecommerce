@@ -25,8 +25,9 @@ class ProductController extends AbstractController
 
         $product = new ProductEntity();
         $product->setCategory($categorie);
-        $product->setLibelle("skywalker");
-        $product->setPrice(5);
+        $product->setLibelle("tulipe fievre");
+        $product->setPrice(93);
+        $product->setPhoto("images/images.jpeg");
 
         $em->persist($product);
         $em->flush();
@@ -41,15 +42,19 @@ class ProductController extends AbstractController
 
         $allProducts = $this->getDoctrine()->getRepository(ProductEntity::class)->findAll();
 
-        $libelle = [];
-        $price = [];
-        foreach ($allProducts as $product) {
-           $libelle[] = $product->getLibelle();
-           $price[] = $product->getPrice();
-        }
         return $this->render("product.html.twig", [
-            'products' => $libelle,
-            'prices' => $price
+            'products' => $allProducts
+        ]);
+    }
+
+    /**
+     * @param $entityId
+     * @Route("/products/{entityId}", name="product_show")
+     */
+    public function showProduct($entityId) {
+        $entity = $this->getDoctrine()->getRepository(ProductEntity::class)->find($entityId);
+        return $this->render("show_product.html.twig",[
+            'product_details' => $entity
         ]);
     }
 }
